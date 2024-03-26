@@ -1,0 +1,7 @@
+class SpacecraftComponent {
+public:
+    virtual void activate() = 0; // Activate the component
+    virtual void deactivate() = 0; // Deactivate the component
+    virtual void statusReport() const = 0; // Generate a status report
+    virtual ~SpacecraftComponent() {} // Ensure proper cleanup
+};
